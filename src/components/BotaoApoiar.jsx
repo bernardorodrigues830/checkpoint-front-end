@@ -1,4 +1,3 @@
-// src/components/BotaoApoiar.jsx
 import { useState } from 'react'
 
 function BotaoApoiar() {

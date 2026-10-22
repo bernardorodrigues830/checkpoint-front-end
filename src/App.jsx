@@ -6,10 +6,8 @@ function App() {
 
   return (
     <main className="mx-auto max-w-2xl p-6">
-      {/* Cartão Principal */}
-      <article className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm space-y-6">
 
-        {/* Lado a Lado: Texto à esquerda e Imagem à direita */}
+      <article className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm space-y-6">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="space-y-2">
             <h1 className="text-2xl font-bold text-black">
@@ -19,16 +17,12 @@ function App() {
               O Glorioso! Clube de Regatas Botafogo, tradição e paixão alvinegra.
             </p>
           </div>
-
-          {/* Imagem do Escudo */}
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg"
             alt="Escudo do Botafogo"
             className="w-24 h-24 object-contain shrink-0"
           />
         </div>
-
-        {/* Botão Interativo com Estado */}
         <div>
           <button
             type="button"
@@ -41,7 +35,6 @@ function App() {
             {curtido ? '★ Apoiando o Glorioso!' : '☆ Apoiar Botafogo'}
           </button>
         </div>
-
       </article>
     </main>
   )
